@@ -1,0 +1,77 @@
+.main-container {
+    width: calc(100% - 22rem) !important;    
+    float: right;
+    transition: all 0.4s;    
+    padding: 20px 20px 20px 50px !important;
+}
+
+.experience-list {
+    justify-content: center !important;
+    align-items: center !important;
+    margin-bottom: 20px;
+}
+
+.experience-item {
+    display: flex;
+    justify-self: start;
+    align-items: center;    
+}
+
+.experience-list img {
+    width: 7rem;    
+    margin-right: 20px;
+}
+
+.experience-date {
+    text-align: right;
+    margin-right: 100px;
+    color: #fe8259;    
+}
+
+.main-container h2 {    
+    font-family: Saira Extra Condensed,serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #343a40;
+    font-size: 3.5rem;
+}
+
+.main-container h3 {    
+    font-family: Saira Extra Condensed,serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #343a40;
+    font-size: 1.75rem;
+}
+
+.main-container span {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: Saira Extra Condensed,serif;
+    font-size: 1.3rem;
+    color: #868e96;
+}
+
+.main-container a {
+    text-decoration: none !important;
+    color: #fe8259;
+    transition: all .2s;
+}
+
+.main-container a:hover {    
+    font-weight: bold;
+    color: #fe8259;
+}
+
+.list-skills {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-skills svg {
+    transition: all .5s;
+}
+
+.list-skills svg:hover {
+    color: #fe8259;
+}
