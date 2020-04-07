@@ -76,3 +76,7 @@
 .icons-contact-mobile a:hover {
     color: #fe8259 !important;
 }
+
+#iconsContactFirstIcon {
+    padding-left: 0 !important;
+}

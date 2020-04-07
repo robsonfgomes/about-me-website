@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { Row, Col, Image } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedinIn, faInstagram, faFacebookSquare, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedinIn, faInstagram, faFacebookSquare } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 import Sunset from '../../img/sunset.jpg';
 import Me from '../../img/me.jpeg';
@@ -41,7 +42,7 @@ export default class Mobile extends Component {
                 <Row>
                     <Col>
                         <div className="icons-contact-mobile">
-                            <a href="https://github.com/robsonfgomes" target="_blank">
+                            <a href="https://github.com/robsonfgomes" target="_blank" id="iconsContactFirstIcon">
                                 <FontAwesomeIcon icon={faGithub} size="lg" />                                
                             </a>                           
                             <a href="https://www.linkedin.com/in/robson-gomes-575396b5" target="_blank">
@@ -53,8 +54,8 @@ export default class Mobile extends Component {
                             <a href="https://www.facebook.com/robsonfrgomes" target="_blank">
                                 <FontAwesomeIcon icon={faFacebookSquare} size="lg" />                                
                             </a>  
-                            <a href="https://twitter.com/RobsonGom3s" target="_blank">
-                                <FontAwesomeIcon icon={faTwitter} size="lg" />                                
+                            <a href="mailto:fgomes.robson@gmail.com" target="_blank">
+                                <FontAwesomeIcon icon={faEnvelope} size="lg" />                                
                             </a>                          
                         </div>
                     </Col>

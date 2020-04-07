@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Image, OverlayTrigger, Tooltip } from 'react-bootstrap';
-import LogoSenai from '../../img/logo_senai.png';
+import LogoFieto from '../../img/logo_fieto.png';
 import LogoCrp from '../../img/logo_crp.png';
 import LogoCeulp from '../../img/logo_ceulpulbra.png';
 import LogoUnicesumar from '../../img/logo_unicesumar.png';
@@ -77,7 +77,7 @@ export default class Content extends Component {
         ];
 
         return (
-            <Container fluid className="main-container 	d-none d-sm-block">
+            <Container fluid className="main-container d-none d-sm-block">
                 <Row id="section-experience">
                     <Col>
                         <h2>EXPERIENCE</h2>
@@ -87,13 +87,13 @@ export default class Content extends Component {
                     <Col>
                         <div className="experience-item">
                             <div>
-                                <a href="http://senai-to.com.br" target="_blank">
-                                    <Image src={LogoSenai} />
+                                <a href="http://sistemafieto.com.br" target="_blank">
+                                    <Image src={LogoFieto} />
                                 </a>
                             </div>
                             <div>
                                 <h3>SYSTEM ANALYST</h3>
-                                <span>SENAI - PALMAS, TO</span>
+                                <span>SISTEMA FIETO - PALMAS, TO</span>
                             </div>
                         </div>
                     </Col>                    
@@ -180,7 +180,7 @@ export default class Content extends Component {
                             </div>
                             <div>                                    
                                 <h3>UNICESUMAR</h3>
-                                <span>Postgraduate in Agile Methodology Practice</span>
+                                <span>Postgraduate in Practice of Agile Methodologies</span>
                             </div>
                         </div>                            
                     </Col>                    

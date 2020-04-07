@@ -2,7 +2,8 @@
     width: 22rem;
     height: 100%;
     position: fixed;     
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);    
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    /* backgrounnd: #282c34 */
 }
 
 .img-background {    
@@ -92,4 +93,8 @@
 
 .icons-contact a:hover {
     color: #fe8259 !important;
+}
+
+#iconsContactFirstIcon {
+    padding-left: 0 !important;
 }
