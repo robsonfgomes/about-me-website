@@ -83,6 +83,7 @@ export default class Content extends Component {
                         <h2>EXPERIENCE</h2>
                     </Col>
                 </Row>
+                <br/>
                 <Row className="experience-list">
                     <Col>
                         <div className="experience-item">
