@@ -56,8 +56,7 @@ export default class Content extends Component {
             { title: 'Yarn', icon:  faYarn },
             { title: 'NPM', icon:  faNpm},
             { title: 'Bootstrap', icon:  faBootstrap},            
-            { title: 'Jenkins', icon:  faJenkins},
-            { title: 'Bitbucket', icon:  faBitbucket},
+            { title: 'Jenkins', icon:  faJenkins},            
         ];
 
         const skillsIconsTwo = [
@@ -66,8 +65,9 @@ export default class Content extends Component {
             { title: 'Git', icon:  faGitAlt},
             { title: 'GitKraken', icon: faGitkraken },
             { title: 'GitLab', icon: faGitlab },
+            { title: 'Bitbucket', icon:  faBitbucket},
             { title: 'Linux', icon: faLinux },
-            { title: 'Microsoft', icon: faMicrosoft },
+            { title: 'Microsoft Windows', icon: faMicrosoft },
             { title: 'Markdown', icon: faMarkdown },            
             { title: 'Trello', icon: faTrello },
             { title: 'Wordpress', icon: faWordpress },
