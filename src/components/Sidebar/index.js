@@ -38,6 +38,7 @@ export default class Sidebar extends Component {
                         </div>
                     </Col>
                 </Row>
+                <br/>
                 <Row className="">
                     <Col>
                         <div className="flex-column nav">                                                
