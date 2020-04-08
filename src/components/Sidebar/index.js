@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedinIn, faInstagram, faFacebookSquare } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
-import Sunset from '../../img/sunset.jpg';
+//import Sunset from '../../img/sunset.jpg';
 import Me from '../../img/me.jpeg';
 
 import './style.css';
@@ -16,7 +16,6 @@ export default class Sidebar extends Component {
                 <Row>
                     <Col>
                         <div className="img-background">                            
-                            <Image src={Sunset} />
                         </div>
                     </Col>
                 </Row>
@@ -42,9 +41,9 @@ export default class Sidebar extends Component {
                 <Row className="">
                     <Col>
                         <div className="flex-column nav">                                                
-                            <a href="#section-experience">EXPERIENCE</a>
-                            <a href="#section-education">EDUCATION</a>
-                            <a href="#section-skills">SKILLS</a>
+                            <a href="#section-experience">Experience</a>
+                            <a href="#section-education">Education</a>
+                            <a href="#section-skills">Skills</a>
                         </div>
                     </Col>
                 </Row>

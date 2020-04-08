@@ -15,14 +15,14 @@ export default class Mobile extends Component {
             <div className="vertical-nav-mobile d-block d-sm-none">
                 <Row>
                     <Col>
-                        <div className="img-background">                            
+                        <div className="img-background-mobile">                            
                             <Image src={Sunset} />
                         </div>
                     </Col>
                 </Row>
                 <Row>
                     <Col>
-                        <div className="avatar">
+                        <div className="avatar-mobile">
                             <Image src={Me} />                                                        
                         </div> 
                         <div className="text-bio">
