@@ -94,6 +94,10 @@
     color: #868e96;
 }
 
+.icons-contact a:hover {
+    color: #007bff !important;
+}
+
 #iconsContactFirstIcon {
     padding-left: 0 !important;
 }
