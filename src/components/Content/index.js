@@ -230,16 +230,18 @@ export default class Content extends Component {
                 <br/>
                 <Row>
                     <Col>
-                        <div className="list-skills">
+                        <div className="list-skills">                            
                             {skillsIconsOne.map(skill => (                                
-                                <OverlayTrigger key={skill.title} placement="top" overlay={
-                                    <Tooltip>
-                                        {skill.title}
-                                    </Tooltip>                                    
-                                }>       
-                                    <FontAwesomeIcon icon={skill.icon} size="2x" />   
-                                </OverlayTrigger>                                   
-                            ))}                                                                           
+                                <div key={`div-${skill.title}`}>
+                                    <OverlayTrigger key={skill.title} placement="top" overlay={
+                                        <Tooltip>
+                                            {skill.title}
+                                        </Tooltip>                                    
+                                    }>       
+                                        <FontAwesomeIcon icon={skill.icon} size="2x" />   
+                                    </OverlayTrigger>  
+                                </div>                                 
+                            ))}                                                                                                  
                         </div>
                     </Col>                    
                 </Row>
@@ -248,14 +250,16 @@ export default class Content extends Component {
                     <Col>
                         <div className="list-skills">                            
                             {skillsIconsTwo.map(skill => (                                
-                                <OverlayTrigger key={skill.title} placement="top" overlay={
-                                    <Tooltip>
-                                        {skill.title}
-                                    </Tooltip>
-                                }>       
+                                <div key={`div-${skill.title}`}>
+                                    <OverlayTrigger key={skill.title} placement="top" overlay={
+                                        <Tooltip>
+                                            {skill.title}
+                                        </Tooltip>
+                                    }>       
                                     <FontAwesomeIcon icon={skill.icon} size="2x" />   
-                                </OverlayTrigger>                                   
-                            ))}                        
+                                    </OverlayTrigger>   
+                                </div>                                
+                            ))}                                                   
                         </div>
                     </Col>
                 </Row>
