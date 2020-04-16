@@ -198,7 +198,7 @@ export default class Content extends Component {
                                 </a>
                             </div>
                             <div>                                    
-                                <h3>CENTRO EDUCACIONAL LUTERANO DE PALMAS - CEULP/ULBRA</h3>
+                                <h3>CENTRO UNIVERSITÁRIO LUTERANO DE PALMAS - CEULP/ULBRA</h3>
                                 <span>COMPUTER SCIENCE</span>
                             </div>
                         </div>                         
