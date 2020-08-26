@@ -142,7 +142,7 @@ export default class Content extends Component {
                 <Row>
                     <Col>
                         <span>
-                            FULL PROFILE ON <a href="https://www.linkedin.com/in/robson-gomes-575396b5" target="_blank">LINKEDIN</a>
+                            FULL PROFILE ON <a href="https://www.linkedin.com/in/robsonfgomes" target="_blank">LINKEDIN</a>
                         </span>
                     </Col>
                 </Row>
@@ -152,25 +152,7 @@ export default class Content extends Component {
                         <h2>EDUCATION</h2>
                     </Col>
                 </Row>
-                <br/>
-                <Row className="experience-list">
-                    <Col>
-                        <div className="experience-item">
-                            <div>
-                                <a href="https://www.unicesumar.edu.br" target="_blank">
-                                    <Image src={LogoUnicesumar} />
-                                </a>
-                            </div>
-                            <div>                                    
-                                <h3>UNICESUMAR</h3>
-                                <span>Postgraduate in Database</span>
-                            </div>
-                        </div>                         
-                    </Col>                   
-                    <Col className="experience-date">
-                        2020 - 2021
-                    </Col>
-                </Row>
+                <br/>                
                 <Row className="experience-list">
                     <Col>
                         <div className="experience-item">
@@ -211,7 +193,7 @@ export default class Content extends Component {
                 <Row>
                     <Col>
                         <span>
-                            FULL PROFILE ON <a href="https://www.linkedin.com/in/robson-gomes-575396b5" target="_blank">LINKEDIN</a>
+                            FULL PROFILE ON <a href="https://www.linkedin.com/in/robsonfgomes" target="_blank">LINKEDIN</a>
                         </span>
                     </Col>
                 </Row>
