@@ -54,7 +54,7 @@ export default class Sidebar extends Component {
                             <a href="https://github.com/robsonfgomes" target="_blank" id="iconsContactFirstIcon">
                                 <FontAwesomeIcon icon={faGithub} size="lg" />                                
                             </a>                           
-                            <a href="https://www.linkedin.com/in/robson-gomes-575396b5" target="_blank">
+                            <a href="https://www.linkedin.com/in/robsonfgomes" target="_blank">
                                 <FontAwesomeIcon icon={faLinkedinIn} size="lg" />                                
                             </a>
                             <a href="https://www.instagram.com/robson_fgomes" target="_blank">
